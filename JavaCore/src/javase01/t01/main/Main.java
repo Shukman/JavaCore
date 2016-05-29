@@ -1,12 +1,13 @@
-package test1_160526;
+package javase01.t01.main;
 
-public class Test1 {
+import javase01.t01.logic.Logic;
+
+public class Main {
 	
 	static public void main(String... arguments) {
-		//no import
-		javase01.t01.logic.Logic logic = new javase01.t01.logic.Logic();
+
+		Logic logic = new Logic();
 		System.out.println(logic.method().equals("I am string in Logic"));
 		System.out.println(logic.method());
-		
 	}
 }
